@@ -1,0 +1,23 @@
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\bin\Debug\RepoMock.exe.config
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\bin\Debug\RepoMock.exe
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\bin\Debug\RepoMock.pdb
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\bin\Debug\SMA-ProjectTemplate1.exe
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\bin\Debug\SMA-ProjectTemplate1.pdb
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\bin\Debug\SMA-ProjectTemplate1.exe.config
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\obj\Debug\RepoMock.csprojResolveAssemblyReference.cache
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\obj\Debug\RepoMock.csproj.CoreCompileInputs.cache
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\obj\Debug\RepoMock.exe
+C:\Users\Rama Repaka\Downloads\HelpSession-8-Sep-2017\RepoMock\obj\Debug\RepoMock.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\RepoMock.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\RepoMock.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\RepoMock.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\Build Request.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\TestDeserialization.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\Build Request.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\Build Request.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\TestDeserialization.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\bin\Debug\TestDeserialization.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\obj\Debug\RepoMock.csprojResolveAssemblyReference.cache
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\obj\Debug\RepoMock.csproj.CoreCompileInputs.cache
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\obj\Debug\RepoMock.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\RepoMock\obj\Debug\RepoMock.pdb

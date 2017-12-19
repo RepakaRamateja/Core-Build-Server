@@ -1,0 +1,16 @@
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\MockClient.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\MockClient.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\MockClient.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\Build Request.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\RepoMock.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\TestDeserialization.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\Build Request.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\Build Request.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\RepoMock.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\RepoMock.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\TestDeserialization.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\bin\Debug\TestDeserialization.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\obj\Debug\MockClient.csprojResolveAssemblyReference.cache
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\obj\Debug\MockClient.csproj.CoreCompileInputs.cache
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\obj\Debug\MockClient.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\MockClient\obj\Debug\MockClient.pdb

@@ -1,0 +1,19 @@
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\BuildServer.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\BuildServer.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\BuildServer.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\Build Request.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\RepoMock.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\TestDeserialization.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\TestHarnessMessages.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\Build Request.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\Build Request.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\RepoMock.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\RepoMock.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\TestDeserialization.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\TestDeserialization.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\TestHarnessMessages.pdb
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\bin\Debug\TestHarnessMessages.exe.config
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\obj\Debug\BuildServer.csprojResolveAssemblyReference.cache
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\obj\Debug\BuildServer.csproj.CoreCompileInputs.cache
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\obj\Debug\BuildServer.exe
+C:\Users\Rama Repaka\Desktop\SMAPROJECT2\BuildServer\obj\Debug\BuildServer.pdb

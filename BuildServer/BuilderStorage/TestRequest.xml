@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TestRequest>
+  <author>Ramteja Repaka</author>
+  <tests>
+    <TestElement>
+      <testName>Secondproject</testName>
+      <testDriver>SecondTestDriver.dll</testDriver>
+      <testCodes>
+        <string>TestedLibDependency.dll</string>
+        <string>TestedLib.dll</string>
+        <string>Interfaces.dll</string>
+      </testCodes>
+    </TestElement>
+  </tests>
+</TestRequest>

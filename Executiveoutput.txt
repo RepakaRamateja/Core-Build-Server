@@ -1,0 +1,403 @@
+--------------------------------Test Executive started-------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------
+Demonstration of Requirement 1
+--------------------------------------------------------------------------------------------------------
+
+
+Implemented using C# langauge as you can see all .cs files in the SMAPROJECT2 folder
+
+
+Using C# Framework Version4.0.30319.42000
+
+
+Implemented code using visual studio as you can see the solution file SMAPROJECT2.sln in the SMAPROJECT2 folder
+
+
+--------------------------------------------------------------------------------------------------------
+Demonstration of Requirement 2
+--------------------------------------------------------------------------------------------------------
+
+
+Included seperate packages:
+
+ Executive
+
+ RepoMock
+
+ MocktestHarness
+
+ BuildServer
+
+ some other additional packages
+
+ All of them could be found in the SMAPROJECT2 folder
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+Demonstration of Requirement 3
+--------------------------------------------------------------------------------------------------------
+
+
+ All the operations of mockclient  mockrepo  buildserver  mocktestharness are displayed below in Sequence Order
+
+
+---------------- MockClient generated build request which is displayed below-----------------
+
+
+<?xml version="1.0" encoding="utf-16"?>
+<BuildRequest>
+  <author>Rama Teja Repaka</author>
+  <Builds>
+    <BuildItem>
+      <builddesc>firstproject</builddesc>
+      <driver>
+        <file>
+          <name>TestDriver.cs</name>
+        </file>
+      </driver>
+      <sourcefiles>
+        <file>
+          <name>TestedOne.cs</name>
+        </file>
+        <file>
+          <name>TestedTwo.cs</name>
+        </file>
+      </sourcefiles>
+    </BuildItem>
+    <BuildItem>
+      <builddesc>Secondproject</builddesc>
+      <driver>
+        <file>
+          <name>SecondTestDriver.cs</name>
+        </file>
+      </driver>
+      <sourcefiles>
+        <file>
+          <name>TestedLibDependency.cs</name>
+        </file>
+        <file>
+          <name>TestedLib.cs</name>
+        </file>
+        <file>
+          <name>Interfaces.cs</name>
+        </file>
+      </sourcefiles>
+    </BuildItem>
+  </Builds>
+</BuildRequest>
+
+
+Client sent build request to MOCK REPOSITORY
+
+
+-------------------------------------------Mock Repo parsing build message----------------------------------------
+
+
+Mockrepo repositorystorage relative path is  ../../../RepoMock/RepoStorage
+
+
+test driver: TestDriver.cs  found
+
+
+source file: TestedOne.cs  found
+
+
+source file: TestedTwo.cs  found
+
+
+test driver: SecondTestDriver.cs  found
+
+
+source file: TestedLibDependency.cs  found
+
+
+source file: TestedLib.cs  found
+
+
+source file: Interfaces.cs  found
+
+
+Build request validation passed
+
+
+Build Request saved in the mockrepo  repositorystorage
+
+
+-------------------------------------------------------------------------------------------------------------
+Demonstration of Requirement 4 command sent to mock repo
+-------------------------------------------------------------------------------------------------------------
+
+
+Mockrepo process command  buildrequesttobuildsever
+
+
+Build request sent  to the buildserver builderstorage whose relative path is ../../../BuildServer/BuilderStorage
+
+
+
+
+---------------------------------Build Server processing build request-----------------------------------
+
+
+requesting  TestDriver.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+requesting  TestedOne.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+requesting  TestedTwo.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+requesting  SecondTestDriver.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+requesting  TestedLibDependency.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+requesting  TestedLib.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+requesting  Interfaces.cs
+
+
+File sent to build server builder storage ../../../BuildServer/BuilderStorage
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+Requirement 5&6  Build Server started processing Source code files and displays sucess,error,warning messages if any
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Build Successful For : Interfaces.cs
+
+
+ Generated-------->Interfaces.dll  in ../../../BuildServer/BuilderStorage
+
+
+
+Build Successful For : SecondTestDriver.cs
+
+
+ Generated-------->SecondTestDriver.dll  in ../../../BuildServer/BuilderStorage
+
+
+
+Build Successful For : TestDriver.cs
+
+
+ Generated-------->TestDriver.dll  in ../../../BuildServer/BuilderStorage
+
+
+
+BUILDNOTSUCCESSFULL:TestedLib.cs
+
+
+Microsoft (R) Visual C# Compiler version 4.7.2046.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+TestedLib.cs(11,25): error CS0246: The type or namespace name 'ITested' could not be found (are you missing a using directive or an assembly reference?)
+
+
+Build Successful For : TestedLibDependency.cs
+
+
+ Generated-------->TestedLibDependency.dll  in ../../../BuildServer/BuilderStorage
+
+
+
+Build Successful For : TestedOne.cs
+
+
+ Generated-------->TestedOne.dll  in ../../../BuildServer/BuilderStorage
+
+
+
+Build Successful For : TestedTwo.cs
+
+
+ Generated-------->TestedTwo.dll  in ../../../BuildServer/BuilderStorage
+
+
+
+--------------------------------------Build Server Creating Test Request---------------------------------------
+
+
+TestRequest saved to BuilderStorage
+
+Sending test Request to mock test harness
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+--------------------------------------------------------------------------------------------------------
+Requirement 7 MockTestHarness processing test request and gets successful built library from build server
+--------------------------------------------------------------------------------------------------------
+
+
+Test Request:
+<?xml version="1.0" encoding="utf-16"?>
+<TestRequest>
+  <author>Ramteja Repaka</author>
+  <tests>
+    <TestElement>
+      <testName>firstproject</testName>
+      <testDriver>TestDriver.dll</testDriver>
+      <testCodes>
+        <string>TestedOne.dll</string>
+        <string>TestedTwo.dll</string>
+      </testCodes>
+    </TestElement>
+    <TestElement>
+      <testName>Secondproject</testName>
+      <testDriver>SecondTestDriver.dll</testDriver>
+      <testCodes>
+        <string>TestedLibDependency.dll</string>
+        <string>TestedLib.dll</string>
+        <string>Interfaces.dll</string>
+      </testCodes>
+    </TestElement>
+  </tests>
+</TestRequest>
+
+
+requesting  TestDriver.dll
+
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+requesting  TestedOne.dll
+
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+requesting  TestedTwo.dll
+
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+requesting  SecondTestDriver.dll
+
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+requesting  TestedLibDependency.dll
+
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+requesting  TestedLib.dll
+
+
+
+--Could not find file '../../../BuildServer/BuilderStorage\TestedLib.dll'.--
+
+requesting  Interfaces.dll
+
+
+file sent to mock test harness dllrepository storage ../../../MockTestHarness/DLLRepository
+
+
+--------------------------------------------------------------------------------------------------------
+Requirement 8 MockTestHarness  loading dll files and displays test status success,failure,exceptions if any
+--------------------------------------------------------------------------------------------------------
+
+  loaded Interfaces.dll
+  loaded SecondTestDriver.dll
+
+
+  attempting to create instance of TestBuild.Test1
+  constructing instance of Test1
+  Test #1:
+    constructing instance of Tested
+    Production code - TestedLib
+    Hi from TestedLibDependency
+  test passed
+
+
+
+
+  attempting to create instance of TestBuild.Test2
+  constructing instance of Test2
+  Test #2:
+    constructing instance of Tested
+    Production code - TestedLib
+    Hi from TestedLibDependency
+  test failed
+
+
+
+
+  attempting to create instance of TestBuild.Test3
+  constructing instance of Test3
+  Test #3:
+    constructing instance of Tested
+    Production code - TestedLib
+    Hi from TestedLibDependency
+  test failed with message "Exception has been thrown by the target of an invocation."
+  test TestBuild.Test3 failed to run
+  loaded TestDriver.dll
+
+
+  attempting to create instance of TestBuild.TestDriver
+Constructing instance of TestedOne
+Hi from TestedOne class
+Constructing instance of TestedTwo
+Hi from TestedTwo class
+  test passed
+
+
+  loaded TestedLibDependency.dll
+  loaded TestedOne.dll
+  loaded TestedTwo.dll
+
+  Simulated Testing completed
+
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
